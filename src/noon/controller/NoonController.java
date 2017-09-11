@@ -20,7 +20,11 @@ public class NoonController
 		System.out.println(firstCircle);
 		System.out.println(secondCircle);
 		
-		PlayDohCircle thirdCircle = new PlayDohCircle(132324);
+		Scanner myScanner = new Scanner(System.in);
+		System.out.println("HOWBIGOFACIRCLEDOYOUWANT?");
+		int circleSize = myScanner.nextInt();
+		
+		PlayDohCircle thirdCircle = new PlayDohCircle(circleSize);
 		System.out.println(thirdCircle);
 		
 		PlayDohKiddo firstkid = new PlayDohKiddo();
