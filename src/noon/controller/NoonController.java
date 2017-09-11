@@ -2,6 +2,7 @@ package noon.controller;
 
 import java.util.Scanner;
 import noon.model.PlayDohCircle;
+import noon.model.PlayDohKiddo;
 
 public class NoonController 
 {
@@ -18,6 +19,18 @@ public class NoonController
 		System.out.println("LOOK I MADE A CURCLE!");
 		System.out.println(firstCircle);
 		System.out.println(secondCircle);
+		
+		PlayDohCircle thirdCircle = new PlayDohCircle(132324);
+		System.out.println(thirdCircle);
+		
+		PlayDohKiddo firstkid = new PlayDohKiddo();
+		PlayDohKiddo secondkid = new PlayDohKiddo();
+		PlayDohKiddo thirdkid = new PlayDohKiddo(5,17,9);
+		System.out.println(firstkid);
+		System.out.println(secondkid);
+		System.out.println(thirdkid);
+		
+		
 		testScanner();
 	}
 	
