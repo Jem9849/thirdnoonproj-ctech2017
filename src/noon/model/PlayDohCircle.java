@@ -12,9 +12,19 @@ public class PlayDohCircle
 		this.size = 5;
 	}
 	
-	public PlayDohCircle(int size)
+	//public PlayDohCircle(int size)
+	//{
+		//this.size = size;
+	//}
+	
+	public PlayDohCircle(int big)
 	{
-		this.size = size;
+		this.size = big;
+	}
+	
+	public void setSize(int newSize)
+	{
+		this.size = newSize;
 	}
 	
 	public String toString()

@@ -27,6 +27,12 @@ public class NoonController
 		PlayDohCircle thirdCircle = new PlayDohCircle(circleSize);
 		System.out.println(thirdCircle);
 		
+		System.out.println("What size should we change the 2nd to?");
+		int updated = myScanner.nextInt();
+		secondCircle.setSize(updated);
+		System.out.println("The circle now is....");
+		System.out.println(secondCircle);
+		
 		PlayDohKiddo firstkid = new PlayDohKiddo();
 		PlayDohKiddo secondkid = new PlayDohKiddo();
 		PlayDohKiddo thirdkid = new PlayDohKiddo(5,17,9);
